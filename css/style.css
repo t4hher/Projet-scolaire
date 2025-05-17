@@ -1,6 +1,8 @@
-
+body{
+  background-image: url("../images/background.png");
+  background-attachment: fixed;
+}
     .navbar {
-      background-color: #0f0f0f;
       padding: 1rem 0;
     }
     .navbar-nav .nav-link {
@@ -13,8 +15,13 @@
     .navbar-nav .nav-link:hover {
       color: #fff;
     }
+    .navbar-brand{
+      width: 20%;
+    }
     .navbar-brand img {
-      height: 40px;
+      height: 100%;
+      width: auto;
+
     }
     .navbar-collapse {
       justify-content: space-between;
@@ -104,7 +111,7 @@
     .submit-button {
       margin-top: 30px;
       padding: 12px 30px;
-      background-color: #000;
+      background-color: #00000000;
       color: #fff;
       border: 1px solid #fff;
       cursor: pointer;

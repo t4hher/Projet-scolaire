@@ -9,20 +9,20 @@
 </head>
 <body style="background-color: black; color: #cfcfcf80;" >
 <nav class="navbar navbar-expand-lg">
-  <div class="container d-flex justify-content-between align-items-center"> 
+  <div class="container d-flex justify-content-around align-items-center"> 
     <div class="d-flex">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ">
         <li class="nav-item"><a class="nav-link" href="#">Loud Club</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Hotels</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Loud Punx</a></li>
       </ul>
     </div>
-    <a class="navbar-brand mx-3" href="#">
-      <img src="" alt="Rolling Loud Logo">
+    <a class="navbar-brand d-flex justify-content-center align-items-center" href="#" style="width:300px;height:80px">
+      <img src="images/logo.png" alt="Rolling Loud Logo">
     </a>
     <div class="d-flex">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ">
         <li class="nav-item"><a class="nav-link" href="#">Sponsors</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Bag Policy</a></li>
@@ -32,7 +32,9 @@
     </div>
   </div>
 </nav>
-<h1>LOUD STREETZ 2025</h1>
+<div class="container">
+  <h1>LOUD STREETZ 2025</h1>
+</div>
 <br>
 <div class="container" >
     <img class="IMG1" src="images/index_pictures/carti.png" alt=""><img class="IMG1" src="images/index_pictures/travis.png" alt=""><img class="IMG1" src="images/index_pictures/ye.png" alt="">
@@ -41,7 +43,7 @@
 
 <section class="form-section text-center">
     <h1>SIGN UP TO THE FESTIVAL </h1>
-    <p class="mb-4">BE THE FIRST TO ACCESS FOR THE UPCOMING FESTIVALS, SIGN UP AND DON'T MISS THE LAST SHOWS!</p>
+    <p class="">BE THE FIRST TO ACCESS FOR THE UPCOMING FESTIVALS, SIGN UP AND DON'T MISS THE LAST SHOWS!</p>
         <form method="post" action="" >
       <div class="form-group">
         <label for="firstName">First Name</label>
