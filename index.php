@@ -77,11 +77,17 @@
 <div class="container">
   <h1>BEST PHOTOS OF THE TOUR</h1>
 </div>
-<div class="container" >
-  <div class="col-3" ><img src="" alt=""></div>
-  <div class="col-3" ><img src="" alt=""></div>
-  <div class="col-3" ><img src="" alt=""></div>
-  <div class="col-3" ><img src="" alt=""></div>
+<div class="container" style="display: flex;flex-direction:column;gap:40px">
+
+    <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
+</div>
+<br><br>
+<h1>SHOP IN LD STRTZ MERCH</h1>
+<div class="container" style="display: flex;flex-direction:column;gap:40px">
+  <img src="images/index_pictures/shop2.png" width="100%" alt="">
+  <div class="form-group" style="flex: 1 1 100%; text-align: center;">
+        <button type="submit" class="submit-button" style="width: 20%;" >SIGN UP</button>
+  </div>
   <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
 </div>
 <div style="display:flex;flex-direction:column; background-color:black ;" >
