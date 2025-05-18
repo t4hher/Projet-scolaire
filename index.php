@@ -36,12 +36,13 @@
   <h1>LOUD STREETZ 2025</h1>
 </div>
 <br>
-<div class="container" >
-    <img class="IMG1" src="images/index_pictures/carti.png" alt=""><img class="IMG1" src="images/index_pictures/travis.png" alt=""><img class="IMG1" src="images/index_pictures/ye.png" alt="">
+<div class="container" style="display: flex;flex-direction:column;gap:40px">
+    <div><img class="IMG1" src="images/index_pictures/carti.png" alt=""><img class="IMG1" src="images/index_pictures/travis.png" alt=""><img class="IMG1" src="images/index_pictures/ye.png" alt=""></div>
+    <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
 </div>
-    <br><hr color="#cfcfcf80;" width="2px" >
 
 <section class="form-section text-center">
+    
     <h1>SIGN UP TO THE FESTIVAL </h1>
     <p class="">BE THE FIRST TO ACCESS FOR THE UPCOMING FESTIVALS, SIGN UP AND DON'T MISS THE LAST SHOWS!</p>
         <form method="post" action="" >
