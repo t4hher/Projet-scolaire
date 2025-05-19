@@ -12,10 +12,8 @@
   <div class="container d-flex justify-content-around align-items-center"> 
     <div class="d-flex">
       <ul class="navbar-nav ">
-        <li class="nav-item"><a class="nav-link" href="#">Loud Club</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Hotels</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Loud Punx</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Book Hotel</a></li>
       </ul>
     </div>
     <a class="navbar-brand d-flex justify-content-center align-items-center" href="#" style="width:300px;height:80px">
@@ -23,10 +21,8 @@
     </a>
     <div class="d-flex">
       <ul class="navbar-nav ">
-        <li class="nav-item"><a class="nav-link" href="#">Sponsors</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Press</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">FAQ/Info</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">FAQ/INFO</a></li>
       </ul>
     </div>
   </div>
@@ -73,15 +69,36 @@
       <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
     </form>
 </section>
-<div class="container">
-  <h1>BEST PHOTOS OF THE TOUR</h1>
-</div>
+<h1>BEST PHOTOS OF THE TOUR</h1><br><br>
+<div class="container" style="display: flex;flex-direction:column;gap:1px" >
+  <div class="row" >
+    <img src="images/tours_images/1.png" alt="" class="col-3">
+    <img src="images/tours_images/2.png" alt="" class="col-3">
+    <img src="images/tours_images/3.png" alt="" class="col-3">
+    <img src="images/tours_images/4.png" alt="" class="col-3">
+    <img src="images/tours_images/5.png" alt="" class="col-3">
+    <img src="images/tours_images/6.png" alt="" class="col-3">
+    <img src="images/tours_images/7.png" alt="" class="col-3">
+    <img src="images/tours_images/8.png" alt="" class="col-3">
+    <img src="images/tours_images/9.png" alt="" class="col-3">
+    <img src="images/tours_images/10.png" alt="" class="col-3">
+    <img src="images/tours_images/11.png" alt="" class="col-3">
+    <img src="images/tours_images/12.png" alt="" class="col-3">
+    <img src="images/tours_images/13.png" alt="" class="col-3">
+    <img src="images/tours_images/14.png" alt="" class="col-3">
+    <img src="images/tours_images/15.png" alt="" class="col-3">
+    <img src="images/tours_images/16.png" alt="" class="col-3">
+  </div>
+    <div class="form-group" style="flex: 1 1 100%; text-align: center; align-items: center;">
+        <button type="submit" class="submit-button" style="width: 20%;" >GET TICKETS </button>
+  </div>
+</div><br><br>
 <div class="container" style="display: flex;flex-direction:column;gap:40px">
 
     <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
 </div>
 <br><br>
-<h1>SHOP IN LD STRTZ MERCH</h1>
+<h1>SHOP IN LD STRTZ MERCH</h1><br><br>
 <div class="container" style="display: flex;flex-direction:column;gap:1px">
   <img src="images/index_pictures/shop2.png" width="100%" alt="">
   <div class="form-group" style="flex: 1 1 100%; text-align: center; align-items: center;">
