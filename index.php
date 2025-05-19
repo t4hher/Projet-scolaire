@@ -25,7 +25,6 @@
       <ul class="navbar-nav ">
         <li class="nav-item"><a class="nav-link" href="#">Sponsors</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Bag Policy</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Press</a></li>
         <li class="nav-item"><a class="nav-link" href="#">FAQ/Info</a></li>
       </ul>
@@ -83,14 +82,16 @@
 </div>
 <br><br>
 <h1>SHOP IN LD STRTZ MERCH</h1>
-<div class="container" style="display: flex;flex-direction:column;gap:40px">
+<div class="container" style="display: flex;flex-direction:column;gap:1px">
   <img src="images/index_pictures/shop2.png" width="100%" alt="">
-  <div class="form-group" style="flex: 1 1 100%; text-align: center;">
-        <button type="submit" class="submit-button" style="width: 20%;" >SIGN UP</button>
+  <div class="form-group" style="flex: 1 1 100%; text-align: center; align-items: center;">
+        <button type="submit" class="submit-button" style="width: 20%;" >SHOP NOW</button>
   </div>
+  <br>
   <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
 </div>
 <div style="display:flex;flex-direction:column; background-color:black ;" >
+  <br>
 <nav class="navbar navbar-expand-lg">
   <div class="container d-flex justify-content-around align-items-center" > 
     <div class="d-flex">
@@ -104,9 +105,9 @@
     </div>
   </div>
 </nav>
-<div class="container" style="padding:80px;" >
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loud StreetX LLC is committed to facilitating the accessibility and usability of its website, loudstreetx.com (the “Website”), for individuals with sensory disabilities. To support this commitment, Loud StreetX will gradually implement the relevant portions of the World Wide Web Consortium’s Web Content Accessibility Guidelines 2.0 Level AA (“WCAG 2.0 AA”) as its web accessibility standard. This will help ensure that the Website becomes more accessible to users with sensory impairments. <br><br><br>
-Until our digital media upgrades are complete, if you experience difficulty accessing any part of our website, apps, or internal systems to obtain information, purchase tickets, or for any other reason, please call +212 5 35 22 10 42 and one of our representatives in Fes, Casablanca, Agadir, or Rabat will be happy to assist you.</p>
+<div class="container" style="padding-bottom:80px;padding-top:10px" >
+<span style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loud StreetX LLC is committed to facilitating the accessibility and usability of its website, loudstreetx.com (the “Website”), for individuals with sensory disabilities. To support this commitment, Loud StreetX will gradually implement the relevant portions of the World Wide Web Consortium’s Web Content Accessibility Guidelines 2.0 Level AA (“WCAG 2.0 AA”) as its web accessibility standard. This will help ensure that the Website becomes more accessible to users with sensory impairments. <br><br>
+Until our digital media upgrades are complete, if you experience difficulty accessing any part of our website, apps, or internal systems to obtain information, purchase tickets, or for any other reason, please call +212 5 35 22 10 42 and one of our representatives in Fes, Casablanca, Agadir, or Rabat will be happy to assist you.</span>
 </div>
 </div>
 </body>
