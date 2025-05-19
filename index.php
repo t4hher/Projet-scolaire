@@ -12,8 +12,8 @@
   <div class="container d-flex justify-content-center align-items-center"> 
     <div class="d-flex">
       <ul class="navbar-nav"  style="margin: 0; padding: 0;">
-        <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Book Hotel</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu pages/Tours/tours.php">Tours</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu pages/Book Hotel/book.php">Book Hotel</a></li>
       </ul>
     </div>
     <a class="navbar-brand d-flex justify-content-center align-items-center" href="#" style="width:300px;height:80px;margin: 0; padding: 0;">
@@ -21,8 +21,8 @@
     </a>
     <div class="d-flex">
       <ul class="navbar-nav" style="margin: 0; padding: 0;">
-        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">FAQ/INFO</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu pages/Shop/shop.php">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu pages/FAG-INFO/fag_info.php">FAQ/INFO</a></li>
       </ul>
     </div>
   </div>
