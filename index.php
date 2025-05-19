@@ -9,18 +9,18 @@
 </head>
 <body style="background-color: black; color: #cfcfcf80;" >
 <nav class="navbar navbar-expand-lg">
-  <div class="container d-flex justify-content-around align-items-center"> 
+  <div class="container d-flex justify-content-center align-items-center"> 
     <div class="d-flex">
-      <ul class="navbar-nav ">
+      <ul class="navbar-nav"  style="margin: 0; padding: 0;">
         <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Book Hotel</a></li>
       </ul>
     </div>
-    <a class="navbar-brand d-flex justify-content-center align-items-center" href="#" style="width:300px;height:80px">
+    <a class="navbar-brand d-flex justify-content-center align-items-center" href="#" style="width:300px;height:80px;margin: 0; padding: 0;">
       <img src="images/logo.png" alt="Rolling Loud Logo">
     </a>
     <div class="d-flex">
-      <ul class="navbar-nav ">
+      <ul class="navbar-nav" style="margin: 0; padding: 0;">
         <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
         <li class="nav-item"><a class="nav-link" href="#">FAQ/INFO</a></li>
       </ul>
@@ -71,23 +71,23 @@
 </section>
 <h1>BEST PHOTOS OF THE TOUR</h1><br><br>
 <div class="container" style="display: flex;flex-direction:column;gap:1px" >
-  <div class="row" >
-    <img src="images/tours_images/1.png" alt="" class="col-3">
-    <img src="images/tours_images/2.png" alt="" class="col-3">
-    <img src="images/tours_images/3.png" alt="" class="col-3">
-    <img src="images/tours_images/4.png" alt="" class="col-3">
-    <img src="images/tours_images/5.png" alt="" class="col-3">
-    <img src="images/tours_images/6.png" alt="" class="col-3">
-    <img src="images/tours_images/7.png" alt="" class="col-3">
-    <img src="images/tours_images/8.png" alt="" class="col-3">
-    <img src="images/tours_images/9.png" alt="" class="col-3">
-    <img src="images/tours_images/10.png" alt="" class="col-3">
-    <img src="images/tours_images/11.png" alt="" class="col-3">
-    <img src="images/tours_images/12.png" alt="" class="col-3">
-    <img src="images/tours_images/13.png" alt="" class="col-3">
-    <img src="images/tours_images/14.png" alt="" class="col-3">
-    <img src="images/tours_images/15.png" alt="" class="col-3">
-    <img src="images/tours_images/16.png" alt="" class="col-3">
+  <div class="row">
+    <img src="images/tours_images/1.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/2.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/3.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/4.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/5.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/6.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/7.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/8.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/9.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/10.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/11.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/12.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/13.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/14.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/15.png" alt="" class="col-3" style="margin: 0; padding: 0;">
+    <img src="images/tours_images/16.png" alt="" class="col-3" style="margin: 0; padding: 0;">
   </div>
     <div class="form-group" style="flex: 1 1 100%; text-align: center; align-items: center;">
         <button type="submit" class="submit-button" style="width: 20%;" >GET TICKETS </button>
