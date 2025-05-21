@@ -91,7 +91,7 @@
   </div>
     <div class="form-group" style="flex: 1 1 100%; text-align: center; align-items: center;">
         <button type="submit" class="submit-button" style="width: 20%;" >GET TICKETS </button>
-  </div>
+    </div>
 </div><br><br>
 <div class="container" style="display: flex;flex-direction:column;gap:40px">
 
