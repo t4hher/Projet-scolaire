@@ -44,22 +44,22 @@
         <form method="post" action="" >
       <div class="form-group">
         <label for="firstName">Full Name</label>
-        <input name="FullName" type="text" id="firstName" placeholder="Enter your full name...">
+        <input name="FullName" type="text" id="fullName" class="formInput" placeholder="Enter your full name...">
       </div>
 
       <div class="form-group">
-        <label for="lastName">Phone Number</label>
-        <input name="lastName" type="text" id="lastName" placeholder="Enter your phone number...">
+        <label for="phone">Phone Number</label>
+        <input name="phone" type="text" id="phone" class="formInput" placeholder="Enter your phone number...">
       </div>
 
       <div class="form-group">
         <label for="email">Email</label>
-        <input name="Email" type="email" id="email" placeholder="Enter an email...">
+        <input name="Email" type="email" id="email" class="formInput" placeholder="Enter an email...">
       </div>
 
       <div class="form-group">
-        <label for="phone">Password</label>
-        <input name="phone" type="text" id="phone" placeholder="Enter your password...">
+        <label for="pass">Password</label>
+        <input name="pass" type="text" id="pass" class="formInput" placeholder="Enter your password...">
       </div>
 
 

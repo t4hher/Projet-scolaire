@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="color: #cfcfcf80;background-image: url('../../images/background.png');">
+<body style="color: #cfcfcf80;">
   <nav class="navbar navbar-expand-lg">
     <div class="container d-flex justify-content-center align-items-center">
       <div class="d-flex">
@@ -19,7 +19,7 @@
         </ul>
       </div>
       <a class="navbar-brand d-flex justify-content-center align-items-center" href="../../index.php" style="width:300px;height:80px;margin: 0; padding: 0;">
-        <img src="../../images/logo.png" alt="Rolling Loud Logo">
+        <img src="../../../images/logo.png" alt="Rolling Loud Logo">
       </a>
       <div class="d-flex">
         <ul class="navbar-nav" style="margin: 0; padding: 0;">
@@ -29,30 +29,46 @@
       </div>
     </div>
   </nav>
-  <h1>2025 LDSTRTZ MERCH</h1>
-  <div class="container" id="largeImg">
-    <img src="../../images/index_pictures/shop1.png" width="100%">
-    <br><br>
-    <div id="lstPrdct" class="container">
-      <?php
-      require("../db.php");
-      $sql = $db->prepare("SELECT produitId,thumb,name,prix,description FROM produits;");
-      $sql->setFetchMode(PDO::FETCH_ASSOC);
-      $sql->execute();
-      while ($ligne = $sql->fetch()) {?>
-        <div class="prdct">
-          <img src="<?php echo $ligne['thumb']; ?>" alt="" style="width: 100%; height:fit-content;">
-          <div style="color: #cfcfcf; font-size:x-large"><?php echo $ligne['name']; ?></div>
-          <div style="height: 50px;"><?php echo $ligne['description']; ?></div>
-          <div style="color: #cfcfcf;font-size:x-large">Price: <?php echo $ligne['prix']; ?>$</div>
-          <br>
-          <div style="justify-content: flex-start;">
-            <div class="btn-price-container">
-              <button type="submit" class="submit-button" style="padding: 10px;width:100%">BUY</button>
+  <div id="buyWindow" class="container">
+    <div id="prdct">
+        <img src="../../../images/shop_merch/jb2_shirt.png" alt="" style="width: 100%; height:fit-content;">
+        <div style="color: #cfcfcf; font-size:x-large">The Product Name</div>
+        <div style="height: 50px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis labore facere natus, modi distinctio quidem.</div>
+        <div style="color: #cfcfcf;font-size:x-large">Price: XXX $</div>
+    </div>
+    <div id="buyForm">
+        <form action="" method="post">
+            <div class="form-group" style="gap: 10px;">
+                <div class="form-group">
+                    <label for="FullName">Full Name</label>
+                    <input name="FullName" type="text" id="fullName" class="formInput" placeholder="Enter your full name...">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input name="phone" type="text" id="phone" class="formInput" placeholder="Enter your phone number...">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input name="eamil" type="text" id="email" class="formInput" placeholder="Enter your email adresse...">
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input name="address" type="text" id="address" class="formInput" placeholder="Enter your address...">
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quanity</label>
+                    <input name="quantity" type="number" id="quantity" class="formInput" placeholder="Choose the quantity...">
+                </div>
+                <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
+                <div class="form-group">
+                    <label for="note">Order Notes(optional)</label>
+                    <textarea name="note" id="note" class="formInput" rows="4" placeholder="Notes about your order for delivery..."></textarea>
+                </div>
+                <div class="form-group" style="flex: 1 1 100%; text-align: center;">
+                    <button type="submit" class="submit-button">Buy</button>
+                </div>
             </div>
-          </div>
-        </div>
-            <?php }?>
+        </form>
     </div>
   </div>
   <br><br>
