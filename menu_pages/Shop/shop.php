@@ -48,7 +48,7 @@
           <br>
           <div style="justify-content: flex-start;">
             <div class="btn-price-container">
-              <button type="submit" class="submit-button" style="padding: 10px;px;width:100%">BUY</button>
+              <button type="submit" class="submit-button" style="padding: 10px;width:100%">BUY</button>
             </div>
           </div>
         </div>
