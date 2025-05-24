@@ -118,7 +118,7 @@
     <img src="images/tours_images/16.png" alt="" class="col-3" style="margin: 0; padding: 0;">
   </div>
     <div class="form-group" style="flex: 1 1 100%; text-align: center; align-items: center;">
-        <button type="submit" class="submit-button" style="width: 20%;" >GET TICKETS </button>
+        <a type="submit" href="" class="submit-button" style="width: 20%;text-decoration:none;" >GET TICKETS </a>
     </div>
 </div><br><br>
 <div class="container" style="display: flex;flex-direction:column;gap:40px">
@@ -130,7 +130,7 @@
 <div class="container" style="display: flex;flex-direction:column;gap:1px">
   <img src="images/index_pictures/shop2.png" width="100%" alt="">
   <div class="form-group" style="flex: 1 1 100%; text-align: center; align-items: center;">
-        <button type="submit" class="submit-button" style="width: 20%;" >SHOP NOW</button>
+        <a type="submit" href="menu_pages/Shop/shop.php" class="submit-button" style="width: 20%;text-decoration:none;" >SHOP NOW</a>
   </div>
   <br>
   <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
@@ -141,11 +141,11 @@
   <div class="container d-flex justify-content-around align-items-center" > 
     <div class="d-flex">
       <ul class="navbar-nav ">
-        <li class="nav-item"><a class="nav-link" href="#">FAQ/INFO</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">MEDIA</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">PRIVACY POLICY</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">TERMS OF USE</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">ACCESSIBILITY</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu_pages/FAG_INFO/fag_info.php">FAQ/INFO</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu_pages/Media/media.php">MEDIA</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu_pages/Privacy_policy/privacy.php">PRIVACY POLICY</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu_pages/Terms_use/TermsUse.php">TERMS OF USE</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu_pages/Acessibilty/acessibility.php">ACCESSIBILITY</a></li>
       </ul>
     </div>
   </div>
