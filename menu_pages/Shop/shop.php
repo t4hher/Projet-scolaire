@@ -43,7 +43,7 @@
         <div class="prdct">
           <img src="<?php echo $ligne['thumb']; ?>" alt="" style="width: 100%; height:fit-content;">
           <div style="color: #cfcfcf; font-size:x-large;height: 70px;"><?php echo $ligne['name']; ?></div>
-          <div style=""><?php echo $ligne['description']; ?></div>
+          <div style="height: 70px;"><?php echo $ligne['description']; ?></div>
           <div style="color: #cfcfcf;font-size:x-large">Price: <?php echo $ligne['prix']; ?>$</div>
           <br>
           <div style="justify-content: flex-start;justify-self:flex-end">
