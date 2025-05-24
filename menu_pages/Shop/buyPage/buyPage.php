@@ -30,12 +30,28 @@
     </div>
   </nav>
   <div id="buyWindow" class="container">
+  <?php
+require("../../db.php");
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+    $stmt = $db->prepare("SELECT * FROM produits WHERE produitId = :id");
+    $stmt->execute([':id' => $id]);
+    $produit = $stmt->fetch(PDO::FETCH_ASSOC);
+    if ($produit) {
+?>
     <div id="prdct">
-        <img src="../../../images/shop_merch/jb2_shirt.png" alt="" style="width: 100%; height:fit-content;">
-        <div style="color: #cfcfcf; font-size:x-large">The Product Name</div>
-        <div style="height: 50px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis labore facere natus, modi distinctio quidem.</div>
-        <div style="color: #cfcfcf;font-size:x-large">Price: XXX $</div>
+        <img src="../<?=$produit["thumb"]?>" alt="" style="width: 100%; height:fit-content;">
+        <div style="color: #cfcfcf; font-size:x-large"><?=$produit["name"]?></div>
+        <div style="height: 50px;"><?=$produit["description"]?></div>
+        <div style="color: #cfcfcf;font-size:x-large">Price: <?=$produit["prix"]?> $</div>
     </div>
+    <?php
+    } else {
+        echo "Produit non trouvé.";
+    }
+} else {
+    echo "Aucune référence fournie.";
+}?>
     <div id="buyForm">
         <form action="" method="post">
             <div class="form-group" style="gap: 10px;">
@@ -57,7 +73,7 @@
                 </div>
                 <div class="form-group">
                     <label for="quantity">Quanity</label>
-                    <input name="quantity" type="number" id="quantity" class="formInput" placeholder="Choose the quantity...">
+                    <input name="quantity" type="number" id="quantity" class="formInput" placeholder="Choose the quantity..." style="width: 30%;">
                 </div>
                 <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
                 <div class="form-group">

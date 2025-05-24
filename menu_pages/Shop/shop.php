@@ -43,12 +43,12 @@
         <div class="prdct">
           <img src="<?php echo $ligne['thumb']; ?>" alt="" style="width: 100%; height:fit-content;">
           <div style="color: #cfcfcf; font-size:x-large"><?php echo $ligne['name']; ?></div>
-          <div style="height: 50px;"><?php echo $ligne['description']; ?></div>
+          <div style="height: 70px;"><?php echo $ligne['description']; ?></div>
           <div style="color: #cfcfcf;font-size:x-large">Price: <?php echo $ligne['prix']; ?>$</div>
           <br>
-          <div style="justify-content: flex-start;">
+          <div style="justify-content: flex-start;justify-self:flex-end">
             <div class="btn-price-container">
-              <button type="submit" class="submit-button" style="padding: 10px;width:100%">BUY</button>
+            <a style="width:100%" href="buyPage/buyPage.php?id=<?= $ligne["produitId"] ?>"><button type="submit" class="submit-button" style="padding: 10px;width:100%;">BUY</button></a>
             </div>
           </div>
         </div>
