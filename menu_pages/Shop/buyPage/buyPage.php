@@ -14,17 +14,17 @@
     <div class="container d-flex justify-content-center align-items-center">
       <div class="d-flex">
         <ul class="navbar-nav" style="margin: 0; padding: 0;">
-          <li class="nav-item"><a class="nav-link" href="../Tours/tours.php">Tours</a></li>
-          <li class="nav-item"><a class="nav-link" href="../Book Hotel/book.php">Book Hotel</a></li>
+          <li class="nav-item"><a class="nav-link" href="../../Tours/tours.php">Tours</a></li>
+          <li class="nav-item"><a class="nav-link" href="../../BookHotel/book.php">Book Hotel</a></li>
         </ul>
       </div>
-      <a class="navbar-brand d-flex justify-content-center align-items-center" href="../../index.php" style="width:300px;height:80px;margin: 0; padding: 0;">
+      <a class="navbar-brand d-flex justify-content-center align-items-center" href="../../../index.php" style="width:300px;height:80px;margin: 0; padding: 0;">
         <img src="../../../images/logo.png" alt="Rolling Loud Logo">
       </a>
       <div class="d-flex">
         <ul class="navbar-nav" style="margin: 0; padding: 0;">
-          <li class="nav-item"><a class="nav-link" href="../Shop/shop.php">Shop</a></li>
-          <li class="nav-item"><a class="nav-link" href="../FAG-INFO/fag_info.php">FAQ/INFO</a></li>
+          <li class="nav-item"><a class="nav-link" href="../shop.php">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="../../FAG_INFO/fag_info.php">FAQ/INFO</a></li>
         </ul>
       </div>
     </div>
