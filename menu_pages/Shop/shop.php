@@ -1,3 +1,7 @@
+<?php
+session_start();
+if(!isset($_SESSION["email"])){header("location:../sign_in/signin.php");}else{
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -79,3 +83,4 @@
 </body>
 
 </html>
+<?php }?>
