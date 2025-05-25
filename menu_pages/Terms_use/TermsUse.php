@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <style>
         h3{color:darkgray;}
-        
     </style>
 </head>
 <body style="background-color: black; color: #cfcfcf80;" >
@@ -135,11 +134,11 @@
   <div class="container d-flex justify-content-around align-items-center" > 
     <div class="d-flex">
       <ul class="navbar-nav ">
-        <li class="nav-item"><a class="nav-link" href="#">FAQ/INFO</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">MEDIA</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">PRIVACY POLICY</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">TERMS OF USE</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">ACCESSIBILITY</a></li>
+        <li class="nav-item"><a class="nav-link" href="../FAG_INFO/fag_info.php">FAQ/INFO</a></li>
+        <li class="nav-item"><a class="nav-link" href="../Media/media.php">MEDIA</a></li>
+        <li class="nav-item"><a class="nav-link" href="../Privacy_policy/privacy.php">PRIVACY POLICY</a></li>
+        <li class="nav-item"><a class="nav-link" href="TermsUse.php">TERMS OF USE</a></li>
+        <li class="nav-item"><a class="nav-link" href="../Acessibilty/acessibility.php">ACCESSIBILITY</a></li>
       </ul>
     </div>
   </div>

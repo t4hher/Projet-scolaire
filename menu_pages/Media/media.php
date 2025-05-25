@@ -26,18 +26,54 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav><br><br>
+  <div class="container">
+    <h1>Welcome to LOUD STREETZ</h1>
+  </div>
+  <div class="container">
+    <h2>The Ultimate Stage for Hip-Hop Culture</h2>
+  </div><br>
+<div class="container">
+  <img src="../../images/Media_image/pexels-annamw-1120162.jpg" width="1200px" style="border-radius: 15px;" alt="">
+</div><br><br>
+<section id="about-loud-streetz">
+  <div class="container">
+    <p>
+      LOUD Streetz isn’t just a festival. It’s a movement. A raw, unfiltered celebration of hip-hop in all its forms – from trap anthems and lyrical fire to underground heat and international legends. We bring the streets to the stage and the culture to the crowd.
+    </p>
+  </div>
+  <div class="container">
+    <p>
+      Born from the beats of the city and the voices of a generation, LOUD Streetz is your gateway to the biggest names in rap, rising stars, and unforgettable live energy. Our festivals light up cities with explosive performances, immersive street art, real food, and real vibes.
+    </p>
+  </div>
+  <div class="container">
+    <p><strong>LOUD Streetz is more than music – it’s the streets amplified.</strong></p>
+  </div>
+  <div class="container">
+    <ul>
+      <li>🎤 <strong>The Loudest Lineups</strong></li>
+      <li>🎧 <strong>The Freshest Sounds</strong></li>
+      <li>🌆 <strong>The Realest Experience</strong></li>
+    </ul>
+  </div>
+  <div class="container">
+    <p>
+      Stay plugged in. LOUD Streetz is where hip-hop lives, breathes, and gets <strong>LOUD</strong>.
+    </p>
+  </div>
+</section><br>
 <div style="display:flex;flex-direction:column; background-color:black ;" >
   <br>
 <nav class="navbar navbar-expand-lg">
   <div class="container d-flex justify-content-around align-items-center" > 
     <div class="d-flex">
       <ul class="navbar-nav ">
-        <li class="nav-item"><a class="nav-link" href="#">FAQ/INFO</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">MEDIA</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">PRIVACY POLICY</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">TERMS OF USE</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">ACCESSIBILITY</a></li>
+        <li class="nav-item"><a class="nav-link" href="../FAG_INFO/fag_info.php">FAQ/INFO</a></li>
+        <li class="nav-item"><a class="nav-link" href="media.php">MEDIA</a></li>
+        <li class="nav-item"><a class="nav-link" href="../Privacy_policy/privacy.php">PRIVACY POLICY</a></li>
+        <li class="nav-item"><a class="nav-link" href="../Terms_use/TermsUse.php">TERMS OF USE</a></li>
+        <li class="nav-item"><a class="nav-link" href="../Acessibilty/acessibility.php">ACCESSIBILITY</a></li>
       </ul>
     </div>
   </div>
