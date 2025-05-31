@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +68,7 @@ if (isset($_GET['id'])) {
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input name="eamil" type="text" id="email" class="formInput" placeholder="Enter your email adresse...">
+                    <input name="email" type="text" id="email" class="formInput" placeholder="Enter your email adresse...">
                 </div>
                 <div class="form-group">
                     <label for="address">Address</label>
@@ -81,11 +84,30 @@ if (isset($_GET['id'])) {
                     <textarea name="note" id="note" class="formInput" rows="4" placeholder="Notes about your order for delivery..."></textarea>
                 </div>
                 <div class="form-group" style="flex: 1 1 100%; text-align: center;">
-                    <button type="submit" class="submit-button">Buy</button>
+                    <button type="submit" class="submit-button" name="ss">Buy</button>
                 </div>
             </div>
         </form>
     </div>
+  </div>
+  <div class="container">
+  <?php
+  require("../../db.php");
+  if(isset($_POST["ss"])){
+    $userid=$_SESSION["id"];
+    $prdid=$_GET["id"];
+    $fname=$_POST["FullName"];
+    $phone=$_POST["phone"];
+    $email=$_POST["email"];
+    $address=$_POST["address"];
+    $qnt=$_POST["quantity"];
+    $note=$_POST["note"];
+    $stm=$db->prepare("INSERT INTO orders(userId,produitId,full_name,phone,email,adresse,quantity,notes) VALUES (:user,:produit,:name,:phone,:email,:ad,:qnt,:note)");
+    if($stm->execute([":user"=>$userid,":produit"=>$prdid,":name"=>$fname,":phone"=>$phone,":email"=>$email,":ad"=>$address,":qnt"=>$qnt,":note"=>$note])){
+      echo "<div style='color:green;border: solid green 1px;width:100%;margin:10px;padding: 10px;text-align:center'>Your Order Has been Booked</div>";
+    }else{echo "<div style='color:red;border: solid red 1px;width:100%;padding:10px;margin:10px;text-align:center;>Something Went Wrong</div>";}
+  }
+  ?>
   </div>
   <br><br>
     <div style="display:flex;flex-direction:column; background-color:black ;">
