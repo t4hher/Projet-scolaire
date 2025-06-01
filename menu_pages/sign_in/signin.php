@@ -63,8 +63,9 @@ session_start();
         $stmt->execute([":email"=>$email]);
         $ligne=$stmt->fetch();
         $errors=[];
-        if(count($ligne)>0){
+        if($ligne){
             if(password_verify($password,$ligne["password"])){header("location:../shop/shop.php");
+                $_SESSION["id"]=$ligne["userId"];
                 $_SESSION["email"]=$email;
                 $_SESSION["password"]=$password;
             }else{array_push($errors,"Password does not match");}
