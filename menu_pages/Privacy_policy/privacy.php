@@ -27,6 +27,78 @@
     </div>
   </div>
 </nav>
+  <div class="container">
+    <h2>Privacy Policy</h2>
+  </div>
+  <div class="container">
+    <p>
+      At LOUD Streetz, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or attend our events.
+    </p>
+  </div>
+  <div class="container">
+    <h3>Information We Collect</h3>
+  </div>
+  <div class="container">
+    <p>
+      We may collect the following types of information:
+      <ul>
+        <li>Personal details such as name, email address, and phone number when you sign up or purchase tickets.</li>
+        <li>Technical data like IP address, browser type, and device information through cookies and analytics tools.</li>
+        <li>Social media handles or public profile data if you connect via third-party platforms.</li>
+      </ul>
+    </p>
+  </div>
+  <div class="container">
+    <h3>How We Use Your Information</h3>
+  </div>
+  <div class="container">
+    <p>
+      We use your information to:
+      <ul>
+        <li>Process ticket orders and manage your account.</li>
+        <li>Send updates, promotions, and event announcements.</li>
+        <li>Improve our website and user experience through analytics.</li>
+      </ul>
+    </p>
+  </div>
+  <div class="container">
+    <h3>Cookies</h3>
+  </div>
+  <div class="container">
+    <p>
+      Our site uses cookies to track user activity and enhance your experience. You can choose to disable cookies in your browser settings.
+    </p>
+  </div>
+  <div class="container">
+    <h3>Third-Party Services</h3>
+  </div>
+  <div class="container" >
+    <p>
+      We may use third-party tools and services (e.g., payment processors, marketing platforms) that have their own privacy policies. We are not responsible for the practices of these third parties.
+    </p>
+  </div>
+  <div class="container">
+    <h3>Your Rights</h3>
+  </div>
+  <div class="container">
+    <p>
+      Depending on your location, you may have the right to access, update, or delete your personal data. To exercise these rights, please contact us at privacy@loudstreetz.com.
+    </p>
+  </div>
+  <div class="container">
+    <h3>Contact Us</h3>
+  </div>
+  <div class="container">
+    <p>
+      If you have any questions about this Privacy Policy, you can reach us at privacy@loudstreetz.com.
+    </p>
+  </div>
+  <div class="container">
+    <p>
+      Last updated: [Insert Date]
+    </p>
+  </div>
+  </div>
 <div style="display:flex;flex-direction:column; background-color:black ;" >
   <br>
 <nav class="navbar navbar-expand-lg">

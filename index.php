@@ -36,8 +36,7 @@
     <div><img class="IMG1" src="images/index_pictures/carti.png" alt=""><img class="IMG1" src="images/index_pictures/travis.png" alt=""><img class="IMG1" src="images/index_pictures/ye.png" alt=""></div>
     <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
 </div>
-
-
+<br><br>
 <h1>BEST PHOTOS OF THE TOUR</h1><br><br>
 <div class="container" style="display: flex;flex-direction:column;gap:1px" >
   <div class="row">
