@@ -34,7 +34,6 @@ body{
         font-family: "BTB";
     }
     div{
-        display: flex;
         flex-direction: row;
         justify-content: center;
         font-family: "BTB";

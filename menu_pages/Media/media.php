@@ -6,6 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        h1{color:darkgray;}
+        h2{color:darkgray;}
+    </style>
 </head>
 <body style="background-color: black; color: #cfcfcf80;" >
     <nav class="navbar navbar-expand-lg">
@@ -64,7 +68,7 @@
   </div>
 </section><br>
 <div style="display:flex;flex-direction:column; background-color:black ;" >
-  <br>
+  <br><br><br><br>
 <nav class="navbar navbar-expand-lg">
   <div class="container d-flex justify-content-around align-items-center" > 
     <div class="d-flex">

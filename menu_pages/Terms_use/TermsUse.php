@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <style>
         h3{color:darkgray;}
+        h2{color:darkgray;}
     </style>
 </head>
 <body style="background-color: black; color: #cfcfcf80;" >
@@ -121,14 +122,12 @@
     <h3><li>Contact Us</h3>
     If you have any questions or concerns about these Terms, you can reach us at:
     <br><strong>Loud Streetz</strong><br>
-    Email: <a style="color: darkgray;" href="loudstreetz@gmail.com">loudstreetz@gmail.com</a><br>
+    Email: <a style="color: darkgray;" href="mailto:loudstreetz@gmail.com">loudstreetz@gmail.com</a><br>
     Address: [Fes, Adarissa 33138]
     </li>
   </ol>
 </div><br>
-<div class="container" style="display: flex;flex-direction:column;gap:40px">
-    <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
-</div><br>
+  <br><br><br><br>
 <div style="display:flex;flex-direction:column; background-color:black ;" >
 <nav class="navbar navbar-expand-lg">
   <div class="container d-flex justify-content-around align-items-center" > 
