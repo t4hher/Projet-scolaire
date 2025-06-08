@@ -64,7 +64,7 @@ session_start();
         $ligne=$stmt->fetch();
         $errors=[];
         if($ligne){
-            if(password_verify($password,$ligne["password"])){header("location:../shop/shop.php");
+            if(password_verify($password,$ligne["password"])){header("location:../../index.php");
                 $_SESSION["id"]=$ligne["userId"];
                 $_SESSION["email"]=$email;
                 $_SESSION["password"]=$password;

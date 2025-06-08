@@ -1,6 +1,7 @@
 body{
-  background-image: url("../images/background.png");
+  background-image: url("../../images/background.png");
   background-attachment: fixed;
+  color: white;
 }
     .navbar {
       padding: 1rem 0;
@@ -28,6 +29,7 @@ body{
       width: 100%;
     }
         h1{
+        color: white;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -39,6 +41,22 @@ body{
         justify-content: center;
         font-family: "BTB";
     }
+    .submit-button {
+      margin-top: 10px;
+      background-color: #00000000;
+      color: #fff;
+      border: 1px solid #fff;
+      cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      
+    }
+
+    .submit-button:hover {
+      background-color: #fff;
+      color: #000;
+    }
     @font-face {
       font-family: 'BTB';
       src: url("../../fonts/built\ titling\ bd.otf") format('opentype');
@@ -47,6 +65,20 @@ body{
       font-family: 'BTS';
       src: url("../../fonts/built\ titling\ rg.otf") format('opentype');
      }
-    span{
+    #foot{
       font-family: "BTS";
+    }
+    #lstShw {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .show {
+      width: 30%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      box-sizing: border-box;
     }

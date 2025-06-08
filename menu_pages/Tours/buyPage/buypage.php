@@ -33,6 +33,8 @@ if(!isset($_SESSION["email"])){header("location:../sign_in/signin.php");}else{
       </div>
     </div>
   </nav>
+  <br>
+  <h1>GET YOUR TICKET</h1>
   <div id="buyWindow" class="container">
   <?php
 require("../../db.php");
@@ -41,21 +43,9 @@ if (isset($_GET['id'])) {
     $stmt = $db->prepare("SELECT * FROM produits WHERE produitId = :id");
     $stmt->execute([':id' => $id]);
     $produit = $stmt->fetch(PDO::FETCH_ASSOC);
-    if ($produit) {
-?>
-    <div id="prdct">
-        <img src="../<?=$produit["thumb"]?>" alt="" style="width: 100%; height:fit-content;">
-        <div style="color: #cfcfcf; font-size:x-large"><?=$produit["name"]?></div>
-        <div style="height: 50px;"><?=$produit["description"]?></div>
-        <div style="color: #cfcfcf;font-size:x-large">Price: <?=$produit["prix"]?> $</div>
-    </div>
-    <?php
-    } else {
-        echo "Produit non trouvé.";
-    }
-} else {
-    echo "Aucune référence fournie.";
-}?>
+    if ($produit) {} else {
+        echo "Aucune référence fournie.";
+    }}?>
     <div id="buyForm">
         <form action="" method="post">
             <div class="form-group" style="gap: 10px;">
@@ -72,17 +62,20 @@ if (isset($_GET['id'])) {
                     <input name="email" type="text" id="email" class="formInput" placeholder="Enter your email adresse...">
                 </div>
                 <div class="form-group">
-                    <label for="address">Address</label>
-                    <input name="address" type="text" id="address" class="formInput" placeholder="Enter your address...">
+                    <label for="card">Card Number</label>
+                    <input name="card" type="text" id="card" class="formInput" placeholder="Enter your bank card number...">
+                </div>
+                <div class="form-group">
+                    <label for="payment">Payment</label>
+                    <select name="payment" style="padding: 8px 3px;">
+                        <option value="Mastercard" selected>Mastercard</option>
+                        <option value="Visa">Visa</option>
+                        <option value="PayPal">PayPal</option>
+                    </select>
                 </div>
                 <div class="form-group">
                     <label for="quantity">Quanity</label>
                     <input name="quantity" type="number" id="quantity" class="formInput" placeholder="Choose the quantity..." style="width: 30%;">
-                </div>
-                <div class="line" style="width: 100%; height:1px;background-color:#cfcfcf80"></div>
-                <div class="form-group">
-                    <label for="note">Order Notes(optional)</label>
-                    <textarea name="note" id="note" class="formInput" rows="4" placeholder="Notes about your order for delivery..."></textarea>
                 </div>
                 <div class="form-group" style="flex: 1 1 100%; text-align: center;">
                     <button type="submit" class="submit-button" name="ss">Buy</button>
@@ -100,12 +93,12 @@ if (isset($_GET['id'])) {
     $fname=$_POST["FullName"];
     $phone=$_POST["phone"];
     $email=$_POST["email"];
-    $address=$_POST["address"];
+    $card=$_POST["card"];
+    $pay=$_POST["payment"];
     $qnt=$_POST["quantity"];
-    $note=$_POST["note"];
-    $stm=$db->prepare("INSERT INTO orders(userId,produitId,full_name,phone,email,adresse,quantity,notes) VALUES (:user,:produit,:name,:phone,:email,:ad,:qnt,:note)");
-    if($stm->execute([":user"=>$userid,":produit"=>$prdid,":name"=>$fname,":phone"=>$phone,":email"=>$email,":ad"=>$address,":qnt"=>$qnt,":note"=>$note])){
-      echo "<div style='color:green;border: solid green 1px;width:100%;margin:10px;padding: 10px;text-align:center'>Your Order Has been Booked</div>";
+    $stm=$db->prepare("INSERT INTO tickets(userId,id_show,name,phone,email,card,payment,quantity) VALUES (:user,:produit,:name,:phone,:email,:card,:pay,:qnt)");
+    if($stm->execute([":user"=>$userid,":produit"=>$prdid,":name"=>$fname,":phone"=>$phone,":email"=>$email,":card"=>$card,":qnt"=>$qnt,":pay"=>$pay])){
+      echo "<div style='color:green;border: solid green 1px;width:100%;margin:10px;padding: 10px;text-align:center'>Your Ticket Has been Booked</div>";
     }else{echo "<div style='color:red;border: solid red 1px;width:100%;padding:10px;margin:10px;text-align:center;>Something Went Wrong</div>";}
   }
   ?>
@@ -132,5 +125,6 @@ if (isset($_GET['id'])) {
       </div>
     </div>
 </body>
+
 </html>
 <?php ;}?>
