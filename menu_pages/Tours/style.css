@@ -81,4 +81,5 @@ body{
       flex-direction: column;
       justify-content: flex-start;
       box-sizing: border-box;
+      gap: 10px;
     }

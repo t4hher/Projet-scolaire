@@ -42,9 +42,9 @@ if(!isset($_SESSION["email"])){header("location:../sign_in/signin.php");}else{
       while ($ligne = $sql->fetch()) {?>
         <div class="show">
           <img src="<?php echo $ligne['thumb']; ?>" alt="" style="width: 100%; height:fit-content;">
-          <div style="color: #cfcfcf; font-size:x-large;height: 70px;"><?php echo $ligne['name']; ?></div>
-          <div style="height: #cfcfcf"><?=$ligne['place'];?> | <?=$ligne['city'];?> | <?=$ligne['time'];?></div>
-          <div style="color: #cfcfcf;font-size:x-large">Price: <?php echo $ligne['price']; ?>$</div>
+          <div style="color: #cfcfcf; font-size:x-large;"><?php echo $ligne['name']; ?></div>
+          <div style="color: #cfcfcf80"><?=$ligne['place'];?> | <?=$ligne['city'];?> | <?=$ligne['time'];?></div>
+          <div style="color: #cfcfcf80;font-size:x-large">Price: <?php echo $ligne['price']; ?>$</div>
           <br>
           <div style="width: 100%;">
             <div style="width: 100%;">
