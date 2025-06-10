@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+      h1{color: darkgrey;}
+    </style>
 </head>
 <body style="background-color: black; color: #cfcfcf80;" >
 <nav class="navbar navbar-expand-lg">

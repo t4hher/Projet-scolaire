@@ -31,8 +31,9 @@ if(!isset($_SESSION["email"])){header("location:../sign_in/signin.php");}else{
     </div>
   </div>
 </nav>
-<br>
+<br><br>
 <h1 style="color: #cfcfcf;">LDSTRTZ Tours</h1>
+<br><br>
 <div class="container" id="lstShw">
 <?php
       require("../db.php");

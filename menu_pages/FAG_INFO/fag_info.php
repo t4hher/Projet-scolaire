@@ -114,7 +114,6 @@
   </div>
 </main>
 
-<!-- Footer -->
 <footer style="background-color: black;">
   <nav class="navbar navbar-expand-lg">
     <div class="container d-flex justify-content-around align-items-center">
@@ -122,7 +121,7 @@
         <li class="nav-item"><a class="nav-link" href="fag_info.php">FAQ/INFO</a></li>
         <li class="nav-item"><a class="nav-link" href="../Media/media.php">MEDIA</a></li>
         <li class="nav-item"><a class="nav-link" href="../Privacy_policy/privacy.php">PRIVACY POLICY</a></li>
-        <li class="nav-item"><a class="nav-link" href="../TermsOfUse/TermsUse.php">TERMS OF USE</a></li>
+        <li class="nav-item"><a class="nav-link" href="../Terms_Use/TermsUse.php">TERMS OF USE</a></li>
         <li class="nav-item"><a class="nav-link" href="../Acessibilty/acessibility.php">ACCESSIBILITY</a></li>
       </ul>
     </div>
@@ -133,8 +132,6 @@
     </p>
   </div>
 </footer>
-
-<!-- Bootstrap JS (needed for accordion) -->
 <script src="../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
