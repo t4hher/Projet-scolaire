@@ -11,8 +11,10 @@ if(!isset($_SESSION["email"])){header("location:../sign_in/signin.php");}else{
   <title>Document</title>
   <link rel="stylesheet" href="../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <style>
+      h1{color: darkgrey;}
+  </style>
 </head>
-
 <body style="color: #cfcfcf80;background-image: url('../../images/background.png');">
   <nav class="navbar navbar-expand-lg">
     <div class="container d-flex justify-content-center align-items-center">
@@ -32,8 +34,9 @@ if(!isset($_SESSION["email"])){header("location:../sign_in/signin.php");}else{
         </ul>
       </div>
     </div>
-  </nav>
+  </nav><br><br>
   <h1>2025 LDSTRTZ MERCH</h1>
+  <br><br>
   <div class="container" id="largeImg">
     <img src="../../images/index_pictures/shop1.png" width="100%">
     <br><br>
