@@ -10,9 +10,13 @@
     h1, h2, h3 {
       color: darkgray;
     }
+    body{
+  background-image: url("../../images/background.png");
+  background-attachment: fixed;
+}
   </style>
 </head>
-<body style="background-color: black; color: #cfcfcf80;">
+<body style="color: #cfcfcf80;">
   <nav class="navbar navbar-expand-lg">
     <div class="container d-flex justify-content-center align-items-center"> 
       <div class="d-flex">
@@ -75,7 +79,7 @@
       <h2>Contact Us</h2>
       <p>
         If you have questions or wish to exercise your rights, please contact us at:
-        <a style="color: darkgray;" href="mailto:privacy@loudstreetz.com">privacy@loudstreetz.com</a>
+        <a style="color: darkgray;" href="mailto:loudstretz@gmail.com">privacy@loudstreetz.com</a>
       </p>
 <br>
       <p>

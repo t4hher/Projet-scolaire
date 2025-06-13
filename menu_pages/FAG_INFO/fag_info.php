@@ -18,9 +18,13 @@
       background-color: #111;
       color: #cfcfcf80;
     }
+    body{
+  background-image: url("../../images/background.png");
+  background-attachment: fixed;
+}
   </style>
 </head>
-<body style="background-color: black; color: #cfcfcf80;" role="document">
+<body style="color: #cfcfcf80;" role="document">
 
 <nav class="navbar navbar-expand-lg">
   <div class="container d-flex justify-content-center align-items-center"> 

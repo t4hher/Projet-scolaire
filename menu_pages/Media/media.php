@@ -9,9 +9,13 @@
     <style>
         h1{color:darkgray;}
         h2{color:darkgray;}
+        body{
+  background-image: url("../../images/background.png");
+  background-attachment: fixed;
+}
     </style>
 </head>
-<body style="background-color: black; color: #cfcfcf80;" >
+<body style="color: #cfcfcf80;" >
     <nav class="navbar navbar-expand-lg">
   <div class="container d-flex justify-content-center align-items-center"> 
     <div class="d-flex">

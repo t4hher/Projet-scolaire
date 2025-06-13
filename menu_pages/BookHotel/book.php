@@ -6,8 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+      body{
+  background-image: url("../../images/background.png");
+  background-attachment: fixed;
+}
+    </style>
 </head>
-<body style="background-color: black; color: #cfcfcf80;" >
+<body style="color: #cfcfcf80;" >
     <nav class="navbar navbar-expand-lg">
   <div class="container d-flex justify-content-center align-items-center"> 
     <div class="d-flex">
