@@ -330,28 +330,9 @@ object-fit: cover!important;
   </div>
   <div class="title">Artist - Album</div>
 
-  <div class="vinyl">
-    <img src="images/vinyl/drake-views-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
 
   <div class="vinyl">
     <img src="images/vinyl/playboi-carti-die-lit-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-  <div class="vinyl">
-    <img src="images/vinyl/jackboys-and-travis-scott-jackboys-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-  <div class="vinyl">
-    <img src="images/vinyl/the-weeknd-hurry-up-tomorrow-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-  <div class="vinyl">
-    <img src="images/vinyl/kanye-west-808s-and-heartbreak-Cover-Art.webp"/>
   </div>
   <div class="title">Artist - Album</div>
 
@@ -361,32 +342,7 @@ object-fit: cover!important;
   <div class="title">Artist - Album</div>
 
   <div class="vinyl">
-    <img src="images/vinyl/kanye-west-graduation-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-  <div class="vinyl">
-    <img src="images/vinyl/joji-ballads-1-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-  <div class="vinyl">
-    <img src="images/vinyl/freddie-gibbs-and-the-alchemist-alfredo-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-  <div class="vinyl">
-    <img src="images/vinyl/21-savage-american-dream-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-  <div class="vinyl">
-    <img src="images/vinyl/arctic-monkeys-favourite-worst-nightmare-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-  <div class="vinyl">
-    <img src="images/vinyl/domo-genesis-and-the-alchemist-no-idols-Cover-Art.webp"/>
+    <img src="images/vinyl/kendrick-lamar-gnx-Cover-Art.webp"/>
   </div>
   <div class="title">Artist - Album</div>
 
@@ -396,39 +352,35 @@ object-fit: cover!important;
   <div class="title">Artist - Album</div>
 
     <div class="vinyl">
-    <img src="images/vinyl/lil-uzi-vert-pink-tape-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-    <div class="vinyl">
     <img src="images/vinyl/madd-sensus-Cover-Art.webp"/>
   </div>
   <div class="title">Artist - Album</div>
 
-    <div class="vinyl">
-    <img src="images/vinyl/nas-illmatic-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-    <div class="vinyl">
-    <img src="images/vinyl/playboi-carti-whole-lotta-red-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-    <div class="vinyl">
-    <img src="images/vinyl/salvia-palth-melanchole-Cover-Art.webp"/>
-  </div>
-  <div class="title">Artist - Album</div>
-
-    <div class="vinyl">
+  <div class="vinyl">
     <img src="images/vinyl/travis-scott-utopia-Cover-Art.webp"/>
   </div>
   <div class="title">Artist - Album</div>
 
     <div class="vinyl">
-    <img src="images/vinyl/twenty-one-pilots-blurryface-Cover-Art.webp"/>
+    <img src="images/vinyl/a_ap-rocky-at_long_last_a_ap-Cover-Art.webp"/>
   </div>
   <div class="title">Artist - Album</div>
+
+  <div class="vinyl">
+    <img src="images/vinyl/a_ap-rocky-livelovea_ap-cover-art.webp"/>
+  </div>
+  <div class="title">Artist - Album</div>
+
+  <div class="vinyl">
+    <img src="images/vinyl/xxxtentacion-skins-Cover-Art.webp"/>
+  </div>
+  <div class="title">Artist - Album</div>
+
+  <div class="vinyl">
+    <img src="images/vinyl/kendrick-lamar-to-pimp-a-butterfly-Cover-Art.webp"/>
+  </div>
+  <div class="title">Artist - Album</div>
+
 </div>
 </div>
 </div>
