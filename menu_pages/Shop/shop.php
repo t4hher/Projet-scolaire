@@ -10,13 +10,14 @@ if(!isset($_SESSION["email"])){header("location:../sign_in/signin.php");}else{
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <script src="../../Boots/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <style>
       h1{color: darkgrey;}
   </style>
 </head>
 <body style="color: #cfcfcf80;background-image: url('../../images/background.png');">
-  <nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg">
     <div class="container d-flex justify-content-center align-items-center">
       <div class="d-flex">
         <ul class="navbar-nav" style="margin: 0; padding: 0;">
@@ -31,6 +32,13 @@ if(!isset($_SESSION["email"])){header("location:../sign_in/signin.php");}else{
         <ul class="navbar-nav" style="margin: 0; padding: 0;">
           <li class="nav-item"><a class="nav-link" href="../Shop/shop.php">Shop</a></li>
           <li class="nav-item"><a class="nav-link" href="../FAG_INFO/fag_info.php">FAQ/INFO</a></li>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle='dropdown' aria-expanded="false" id="other"></button>
+            <ul class="dropdown-menu bg-black" aria-labelledby="other">
+              <li><a href="../orders/orders.php" class="dropdown-item text-white bg-black">My Orders</a></li>
+              <li><a href="../logout.php" class="dropdown-item text-danger bg-black">Log-Out</a></li>
+            </ul>
+          </div>
         </ul>
       </div>
     </div>

@@ -84,6 +84,7 @@
       $stmt=$db->prepare("INSERT INTO users (fullName,phoneNumber,email,password) VALUES (:name,:phone,:email,:pass);");
       if($stmt->execute([":name"=>$fname,":phone"=>$phone,":email"=>$email,":pass"=>$passhash])){
         echo "<div style='color:green;border: solid green 1px;width:100%;margin:10px;padding: 10px;'>Thank you for be one of our community</div>";
+        header("location:../sign_in/signin.php")
       }
       }
     }
